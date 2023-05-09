@@ -1,0 +1,100 @@
+body {
+    background-image: linear-gradient(rgb(0, 99, 0) 25%,white);
+    background-attachment: fixed;
+    min-width: auto;
+    max-width: auto;
+}
+.div0 {
+    border-color: #0c4f00;
+    border-style: solid;
+    border-radius: 15px;
+    color: rgb(0, 0, 0);
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: rgb(120, 190, 133);
+    width: 700px;
+    height: 110px;
+    padding: 5px;
+    list-style: none;
+    text-align: center;
+    font-weight: bold;
+    min-width: auto;
+    max-width: auto;
+}
+.div1 {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    border-style: initial;
+    border-color: black;
+    border-radius: 10px;
+}
+.c {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin-top: 100px;
+}
+.table {
+    border-style: normal;
+    color: #000000;
+    background-color: rgb(120, 190, 133);
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 90%;
+    border-color: rgb(0, 0, 0);
+    font-weight: bold;
+}
+.int {
+    color: rgb(255, 255, 255);
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: rgb(0, 72, 0);
+    font-weight: bold;
+}
+.ct {
+    background-color: rgb(0, 72, 0);
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    color: white;
+}
+h1 {
+    color: rgb(240, 240, 240);
+    font-family: 'Times New Roman', Times, serif;
+    background-color: rgb(0, 72, 0);
+    border-radius: 15px;
+    text-shadow: 1.5px -1.0px rgb(0, 0, 0);
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    font-weight: bold;
+}
+h2 {
+    color: rgb(0, 0, 0);
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: small;
+    font-style: italic;
+    margin-top: 1px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    font-weight: bold;
+}
+.p {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    border-color: black;
+    border-radius: 10px;
+    margin: 0.2em;
+}
+.k {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
