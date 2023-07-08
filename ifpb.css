@@ -4,37 +4,39 @@ body {
     min-width: auto;
     max-width: auto;
 }
-.div0 {
-    border-color: #0c4f00;
-    border-style: solid;
-    border-radius: 15px;
-    color: rgb(0, 0, 0);
-    font-family: Arial, Helvetica, sans-serif;
-    background-color: rgb(120, 190, 133);
-    width: 700px;
-    height: 110px;
-    padding: 5px;
-    list-style: none;
-    text-align: center;
-    font-weight: bold;
-    min-width: auto;
-    max-width: auto;
+#scroll{
+    overflow: scroll; 
+    padding: 5px; 
+    max-width: 515px; 
+    max-width: 100%;
 }
-.div1 {
-    display: flex;
-    flex-direction: row;
+ul li{    
+    text-align: center;
+    text-decoration: none;
+    list-style: none;
+    color: black;
+    font-weight: bold;
+}
+.prof{
     justify-content: center;
     align-items: center;
-    border-style: initial;
-    border-color: black;
+    text-align: center;
+    padding: 2px;
+    background-color: rgb(117, 189, 117);
+    border-style: solid;
+    border-color: rgb(1, 65, 1);
     border-radius: 10px;
+}
+#profr{
+    justify-content: center;
+    align-items: center;
 }
 .c {
     display: flex;
     flex-direction: row;
     justify-content: center;
     align-items: center;
-    margin-top: 100px;
+    margin-top: 2.8vh;
 }
 .table {
     border-style: normal;
@@ -97,4 +99,3 @@ h2 {
     justify-content: center;
     align-items: center;
 }
-
