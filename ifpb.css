@@ -38,20 +38,22 @@ ul li{
     align-items: center;
     margin-top: 2.8vh;
 }
-.table {
-    border-style: normal;
-    color: #000000;
-    background-color: rgb(120, 190, 133);
+#tabelascrol{
+    overflow: scroll;
+    display: flex;
+}
+tr td{
+    padding: 0.7em;
     text-align: center;
-    font-family: Arial, Helvetica, sans-serif;
-    font-size: 90%;
-    border-color: rgb(0, 0, 0);
+}
+#int {
+    background-color: green;
+    color: white;
     font-weight: bold;
 }
-.int {
-    color: rgb(255, 255, 255);
-    font-family: Arial, Helvetica, sans-serif;
-    background-color: rgb(0, 72, 0);
+table {
+    background-color: rgb(117, 189, 117);
+    color: black;
     font-weight: bold;
 }
 .ct {
